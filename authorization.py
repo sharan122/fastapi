@@ -8,7 +8,6 @@ oso.register_class(User)
 oso.load_files(["policy.polar"])
 
 
-
 # Check permissions
 def check_permission(user: User, action: str, resource):
     print(f"Checking permission for User: {user}, Action: {action}, Resource: {resource}")
