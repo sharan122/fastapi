@@ -5,7 +5,7 @@ from database import get_db
 
 oso = Oso()
 oso.register_class(User)
-oso.load_files(["C:/Webmavericks/Tasks/Task 4/FastApi/fastapi_app/app/policy.polar"])
+oso.load_files(["policy.polar"])
 
 
 # Check permissions
