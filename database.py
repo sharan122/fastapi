@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://postgres:sharan123@localhost:5432/fastapi_db")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql://fastapi_db_pkr8_user:cSGftdly0FsdBzi2obzV4rZqWkbh3Gm7@dpg-cvbjgeofnakc73dllqr0-a/fastapi_db_pkr8")
 
 
 engine = create_engine(DATABASE_URL)
