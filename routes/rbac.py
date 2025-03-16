@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app.database import get_db
-from app.models import User
-from app.routes.users import get_current_user
-from app.authorization import check_permission
+from database import get_db
+from models import User
+from routes.users import get_current_user
+from authorization import check_permission
 
 router = APIRouter(prefix="/rbac", tags=["RBAC"])
 

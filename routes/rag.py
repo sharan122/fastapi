@@ -4,8 +4,8 @@ from sqlalchemy.orm import Session
 from pdfminer.high_level import extract_text
 from docx import Document
 import openai
-from app.database import get_db
-from app.routes.users import get_current_user
+from database import get_db
+from routes.users import get_current_user
 from werkzeug.utils import secure_filename  # Prevents unsafe file names
 
 router = APIRouter(prefix="/rag", tags=["RAG Pipeline"])

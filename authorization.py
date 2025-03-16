@@ -1,6 +1,6 @@
 from oso import Oso
-from app.models import User
-from app.database import get_db
+from models import User
+from database import get_db
 
 
 oso = Oso()
